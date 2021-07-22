@@ -102,14 +102,11 @@ h1 {
 }
 
 /* Animation */
-/* here we are binding the elemenet animate to the animation, jump */
 .animate {
   animation: jump 0.3s linear;
 }
 
-/* When you specify CSS styles inside the @keyframes rule, the animation will gradually change from the current style to the new style at certain times.
-
-To get an animation to work, you must bind the animation to an element. */
+/* When you specify CSS styles inside the @keyframes rule, the animation will gradually change from the current style to the new style at certain times. */
 @keyframes jump {
   0% {
     top: 150px;
